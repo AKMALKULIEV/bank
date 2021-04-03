@@ -1,3 +1,3 @@
-module github.com/AKMALKULIEV/bank/v2
+module github.com/AKMALKULIEV/bank
 
 go 1.16
