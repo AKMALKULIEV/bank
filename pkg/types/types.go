@@ -1,0 +1,26 @@
+package types
+
+type Money int64
+
+type Category string
+type Status string
+
+type Payment struct{
+	ID int
+	Amount Money
+	Category Category
+}
+type PAN string
+type Currency string 
+
+type Card struct {
+	Id        int 
+	PAN       PAN
+	Balance   Money
+	Currency  Currency
+	Color     string
+	Name      string
+	Active    bool
+	MinBalance Money
+
+}
